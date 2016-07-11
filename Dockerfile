@@ -15,6 +15,6 @@ USER node
 RUN npm install 
 # \ && grunt build # required for staging
 
-#CMD [ "npm", "start" ]
+# CMD [ "npm", "start" ]
 CMD ["nodemon"]
 EXPOSE 3000 
