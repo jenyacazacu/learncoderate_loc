@@ -1,5 +1,5 @@
 
 /* GET home page */
 module.exports.index = function(req, res){
-	res.render('index', { title: 'Learncoderate' });
+	res.render('list-resources', { title: 'Learncoderate' });
 };
